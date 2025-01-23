@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício</title>
+</head>
+<body>
+    <script>
+       var nasc = Number(window.prompt(`Digite o ano que você nasceu:`))
+       var anoaAtual = Number(window.prompt('Digite o ano que você está:'))
+       var idade = anoaAtual - nasc
+       document.write(`Você nasceu em ${nasc} e tem ${idade} anos de idade <br>`)
+       var a = idade >= 18 ?  document.write(` Você já atingiu a maioridade, e já pode tirar a sua carteira de motorista `) :document.write(" Você ainda não atingiu a maioridade,e não pode tirar a sua carteira de motorista")
+    </script>
+</body>
+</html>

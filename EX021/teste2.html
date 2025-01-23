@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo especial</title>
+    <style>
+        /* Toda vez que usamos o símbolo > em seletor,indicamos os filhos(children) de um elemento,dizemos que o primeiro parágrafo é direct children da div */
+       div > p {
+        display:none;
+        /*vai esconder o parágrafo(representado em CSS com div > p) através da propridade display com o valor none */
+       }
+       div:hover > p{
+        display: block;
+        background-color: yellow;
+        /* vai fazer o parágrafo escondido  reaparece,com o fundo amarelo apenas quando passarmos o mouse sobre ele  */
+       }
+    </style>
+</head>
+<body>
+  <h1>Conteúdo especial</h1>  
+  <div>
+    Passe o mouse aqui
+    <p>SURPRESAAAA</p>
+  </div>
+  <p>Veja o conteúdo aparecendo</p>
+</body>
+</html>

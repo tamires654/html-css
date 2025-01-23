@@ -1,0 +1,25 @@
+h1{
+  background-color: rgb(38, 219, 150);
+  text-align: center;
+  color: white;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 300px auto;
+    height: 200px ;
+    padding: 10px auto;
+    margin-top: 0px auto;
+    background-image: linear-gradient(rgb(61, 217, 131),rgb(44, 158, 95),rgb(16, 54, 32))
+}
+body{
+    background-color:rgb(132, 224, 172);
+    
+}
+h2{
+    text-align: center;
+    background-color: white;
+    width:700px ;
+    height: 1000px;
+    padding: 5px;
+    margin: auto;
+   }
