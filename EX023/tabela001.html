@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgba(39, 39, 131, 0.593);
+        }
+        table{
+            width:400px;
+            height: 400px;
+            border-collapse:collapse;
+            margin: auto;
+        }
+            td{
+             border: 1px solid black;
+             padding:8px ;
+             text-align: center;/*ALINHAMENTO HORIZONTAL*/
+             vertical-align:auto;/*alinhamento vertical*/
+            }
+        
+            table.segunda{
+                width: 200px;  
+                text-align: center;
+                margin: auto;
+            }
+            tr.cinza{
+                background-color: gray;
+                color: white; 
+            }
+          table.terceiro{
+            text-align: center;
+          }
+        tr.second{
+            background-color:   rgba(128, 128, 128, 0.382);
+        } 
+        td{
+            padding-bottom:15px ;
+        }
+        tr.titulo{
+            color:rgb(24, 101, 24);
+        }
+        table.forth{
+            text-align: center;
+        }
+        tr.four{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    
+    <!--
+        HIERARQUIA DE TABELAS
+    -->
+    <table>
+        <tr> <!-- Primeira linha-->
+         <td>A1</td>
+         <td>B1</td>
+         <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>  
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+    <br> <br> 
+    <table class="segunda">
+  <tr class="cinza">
+    <td> Dia</td>
+    <Td>Horário</Td>
+  </tr>
+
+  <tr>
+    <td>Segunda</td>
+    <td>8h~20h</td>
+  </tr>
+  <tr>
+    <td>Quarta</td>
+    <td>8h~20h</td>
+  </tr>
+  <tr>
+    <td>Sexta</td>
+    <td>8h~20h</td>
+  </tr>
+    </table>
+    <br> <br>
+    <table class="terceiro">
+      <tr class="second">
+        <td>id</td>
+        <td>Nome</td>
+        <td>Sobrenome</td>
+        <td>idade</td>
+        <td>Sexo</td>
+      </tr>
+      <tr class="second">
+        <td>1</td>
+        <td>José</td>
+        <td>Silva</td>
+        <td>32</td>
+        <td>M</td>
+      </tr>
+      <tr>
+    <td>2</td> 
+    <td>Maria</td> 
+    <td>Oliveira</td>  
+    <td>23</td> 
+    <td>F</td>
+</tr>
+<tr class="second">
+    <td>3</td>
+    <td>João</td>
+    <td>Souza</td>
+    <td>45</td>
+    <td>M</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>Ana</td>
+    <td>Melo</td>
+    <td>54</td>
+    <td>F</td>
+</tr>
+    </table>
+    <br> <br>
+    <table class="third">
+        <tr class="titulo">
+            <td>PRODUTO</td>
+            <td>PREÇO</td>
+        </tr>
+        <tr> 
+            <td>Chocolate em barra</td>
+            <td>R$ 0,50</td>
+        </tr>
+       <tr>
+        <td>Maçã</td>
+        <td>R$1,00</td>
+       </tr>
+       <tr>
+        <td>Banana</td>
+        <td>R$ 0,70</td>
+       </tr>
+       <tr>
+        <td>Biscoito</td>
+        <td>R$ 3,00</td>
+       </tr>
+       <tr>
+        <td>Pão com queijo</td>
+        <td>R$ 1,50</td>
+       </tr>
+       <tr>
+        <td>Pão com geleia</td>
+        <td>R$ 1,20</td>
+       </tr>
+       <tr>
+        <td>Granola</td>
+        <td>R$ 2,50</td>
+       </tr>
+       <td>Suco de laranja</td>
+       <td>R$ 1,75</td>
+    </table>
+    <br> <br>
+    <table class="forth">
+        <tr class="four">
+            <td>ESPORTE</td>
+            <td>QUANTIDADE DE ALUNOS</td>
+        </tr>
+        <tr>
+            <td>Futebol</td>
+            <td>93</td>
+        </tr>
+        <tr>
+            <td>Basquete</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Volêi</td>
+            <td>57</td>
+        </tr>
+        <tr>
+            <td>Natação</td>
+            <td>44</td>
+        </tr>
+    </table>
+</body>
+</html>
